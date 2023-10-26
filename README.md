@@ -16,27 +16,28 @@ This C++ code implements a real-time use case of Dijkstra's algorithm to find th
 Replace this section with instructions on how to use your code. Provide examples and details on how to run the program and input specifications.
 
 ```bash
-| Number | Location          |
-| ------ | ------------------ |
-| 1      | CLOCK TOWER       |
-| 2      | DILARAM CHOWK     |
-| 3      | BB                |
-| 4      | CENTERIO MALL     |
-| 5      | KRISHAN NAGAR CHOWK|
-| 6      | RAJ BHAWAN        |
-| 7      | ISBT              |
-| 8      | BALLUPUR CHOWK    |
-| 9      | ONGC              |
-| 10     | VASANT VIHAR      |
-| 11     | PANDITWADI        |
-| 12     | IMA               |
-| 13     | MB                |
-| 14     | PREM NAGER        |
-| 15     | PHULSANI          |
-| 16     | NANDA KI CHOWKI   |
-| 17     | PONDHA            |
-| 18     | KANDOLI           |
-| 19     | UPES              |
+| Number | Station Code | Location            |
+| ------ | ------------ | ------------------- |
+| 0      | CLOCK        | CLOCK TOWER         |
+| 1      | DILARAM      | DILARAM CHOWK       |
+| 2      | BB           | BB                  |
+| 3      | CENTERIO     | CENTERIO MALL       |
+| 4      | KRISHAN      | KRISHAN NAGAR CHOWK |
+| 5      | RAJ          | RAJ BHAWAN          |
+| 6      | ISBT         | ISBT                |
+| 7      | BALLUPUR     | BALLUPUR CHOWK      |
+| 8      | ONGC         | ONGC                |
+| 9      | VASANT       | VASANT VIHAR        |
+| 10     | PANDITWADI   | PANDITWADI          |
+| 11     | IMA          | IMA                 |
+| 12     | MB           | MB                  |
+| 13     | PREM         | PREM NAGER          |
+| 14     | PHULSANI     | PHULSANI            |
+| 15     | NANDA        | NANDA KI CHOWKI     |
+| 16     | PONDHA       | PONDHA              |
+| 17     | KANDOLI      | KANDOLI             |
+| 18     | UPES         | UPES                |
+
 
 
 
