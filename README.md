@@ -1,6 +1,6 @@
 # Rail-Metro-App
 
-# Dijkstra's Algorithm for Shortest Path in Hyderabad Metro
+# Rail Metro Using Dijkstra’s Algorithm and Ant Colony Optimization
 
 ## Introduction
 
