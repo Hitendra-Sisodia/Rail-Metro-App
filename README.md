@@ -42,5 +42,6 @@ Replace this section with instructions on how to use your code. Provide examples
 
 
 
-![DetailedGraph](https://github.com/Hitendra-Sisodia/Rail-Metro-App/assets/97343226/9d880490-f38a-4564-92f9-afed9ed11e8b)
+![DetailedGraph](https://raw.githubusercontent.com/Hitendra-Sisodia/Rail-Metro-App/main/assets/97343226/9d880490-f38a-4564-92f9-afed9ed11e8b)
+
 
