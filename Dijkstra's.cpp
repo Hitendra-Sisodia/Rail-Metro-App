@@ -4,27 +4,28 @@ using namespace std;
 class MetroMap {
 public:
     map<string, vector<pair<string, int>> > adj;
-    // This function is responsible for adding Node(station)
     void addNode(const string& stationName) {
         adj[stationName] = {};
     }
-    // add connection between two nodes
+
     void addEdge(const string& station1, const string& station2, int distance) {
         adj[station1].emplace_back(station2, distance);
         adj[station2].emplace_back(station1, distance);
     }
+
     void displayStations() {
-        cout<< "-----------------------------------------------------------------------------------------------------------------------------------------"<<endl;
+        cout << "-----------------------------------------------------------------------------------------------------------------------------------------" << endl;
         cout << "Stations in the metro map:" << endl;
-        int count = 0;
+        int count = 1;
         for (const auto& pair : adj) {
             cout << count << ". " << pair.first << endl;
             count++;
         }
-        cout<< "-----------------------------------------------------------------------------------------------------------------------------------------"<<endl;
+        cout << "-----------------------------------------------------------------------------------------------------------------------------------------" << endl;
     }
+
     void displayMetroMap() {
-        cout<< "-----------------------------------------------------------------------------------------------------------------------------------------"<<endl;
+        cout << "-----------------------------------------------------------------------------------------------------------------------------------------" << endl;
         cout << "Metro Map:" << endl;
         for (const auto& pair : adj) {
             cout << pair.first << " -> ";
@@ -33,7 +34,7 @@ public:
             }
             cout << endl;
         }
-        cout<< "-----------------------------------------------------------------------------------------------------------------------------------------"<<endl;
+        cout << "-----------------------------------------------------------------------------------------------------------------------------------------" << endl;
     }
 };
 
@@ -66,11 +67,10 @@ public:
         }
         return distances;
     }
-};
+}
 
 int main() {
     MetroMap metroMap;
-    DijkstraAlgo dijkstraAlgo;
     metroMap.addNode("CLOCK TOWER");
     metroMap.addNode("DILARAM CHOWK");
     metroMap.addNode("BB");
@@ -125,7 +125,7 @@ int main() {
         int choice;
         cout << "Enter Your Choice form (1 <--> 6): ";
         cin >> choice;
-        if (choice == 7) {
+        if (choice == 6) {
             break;
         }
         switch (choice) {
