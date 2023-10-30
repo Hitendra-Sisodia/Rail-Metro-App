@@ -1,0 +1,41 @@
+    metroMap.addNode("CLOCK TOWER");
+    metroMap.addNode("DILARAM CHOWK");
+    metroMap.addNode("BB");
+    metroMap.addNode("CENTERIO MALL");
+    metroMap.addNode("KRISHAN NAGAR CHOWK");
+    metroMap.addNode("RAJ BHAWAN");
+    metroMap.addNode("ISBT");
+    metroMap.addNode("BALLUPUR CHOWK");
+    metroMap.addNode("ONGC");
+    metroMap.addNode("VASANT VIHAR");
+    metroMap.addNode("PANDITWADI");
+    metroMap.addNode("IMA");
+    metroMap.addNode("MB");
+    metroMap.addNode("PREM NAGER");
+    metroMap.addNode("PHULSANI");
+    metroMap.addNode("NANDA KI CHOWKI");
+    metroMap.addNode("PONDHA");
+    metroMap.addNode("KANDOLI");
+    metroMap.addNode("UPES");
+    metroMap.addEdge("CLOCK TOWER", "BB", 10);  // Multiply by 10
+    metroMap.addEdge("CLOCK TOWER", "DILARAM CHOWK", 19);  // Multiply by 10
+    metroMap.addEdge("BB", "KRISHAN NAGAR CHOWK", 13);  // Multiply by 10
+    metroMap.addEdge("KRISHAN NAGAR CHOWK", "BALLUPUR CHOWK", 19);  // Multiply by 10
+    metroMap.addEdge("BALLUPUR CHOWK", "ISBT", 75);  // Multiply by 10
+    metroMap.addEdge("BALLUPUR CHOWK", "VASANT VIHAR", 25);  // Multiply by 10
+    metroMap.addEdge("VASANT VIHAR", "PANDITWADI", 22);  // Multiply by 10
+    metroMap.addEdge("PANDITWADI", "IMA", 18);  // Multiply by 10
+    metroMap.addEdge("IMA", "MB", 10);  // Multiply by 10
+    metroMap.addEdge("MB", "PREM NAGER", 5);  // Multiply by 10
+    metroMap.addEdge("IMA", "PREM NAGER", 23);  // Multiply by 10
+    metroMap.addEdge("PREM NAGER", "NANDA KI CHOWKI", 24);  // Multiply by 10
+    metroMap.addEdge("NANDA KI CHOWKI", "PHULSANI", 50);  // Multiply by 10
+    metroMap.addEdge("DILARAM CHOWK", "CENTERIO MALL", 28);  // Multiply by 10
+    metroMap.addEdge("CENTERIO MALL", "RAJ BHAWAN", 13);  // Multiply by 10
+    metroMap.addEdge("RAJ BHAWAN", "ONGC", 42);  // Multiply by 10
+    metroMap.addEdge("ONGC", "BALLUPUR CHOWK", 25);  // Multiply by 10
+    metroMap.addEdge("ONGC", "PHULSANI", 40);  // Multiply by 10
+    metroMap.addEdge("PHULSANI", "PONDHA", 20);  // Multiply by 10
+    metroMap.addEdge("NANDA KI CHOWKI", "PONDHA", 36);  // Multiply by 10
+    metroMap.addEdge("PONDHA", "KANDOLI", 30);  // Multiply by 10
+    metroMap.addEdge("KANDOLI", "UPES", 30);  // Multiply by 10
